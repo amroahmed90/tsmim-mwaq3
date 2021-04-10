@@ -8,14 +8,14 @@
   </head>
   <body>
     <h1>سجل هنا</h1>
-    <form action="./index.html">
-      <input type="text" placeholder="User Name" required />
+    <form action="./index.html" method="POST">
+      <input type="text" name="username" placeholder="User Name" required />
 
       <p></p>
       <input type="email" placeholder="Email" />
 
       <p></p>
-      <input type="password" placeholder="Password" />
+      <input type="password" name="password" placeholder="Password" />
 
       <p>Date Of Birth: <input type="date" /></p>
 
@@ -24,6 +24,7 @@
       <input type="checkbox" id="remember" />
       <label for="remember">Remember me next time</label>
       <p></p>
+
       <select>
         <option>اختر نوع شبكة المحمول</option>
         <option>فودافون</option>
@@ -32,11 +33,12 @@
       </select>
 
       <p>من فضلك اختر النوع</p>
-      ذكر
-      <input type="radio" name="النوع" id="" />
+      <label for="ذكر">ذكر</label>
+      <input type="radio" name="النوع" id="ذكر" />
       <p></p>
-      أنثى
-      <input type="radio" name="النوع" id="" />
+
+      <label for="انثى">انثى</label>
+      <input type="radio" name="النوع" id="انثى" />
       <p></p>
       <button>سجل الآن</button>
     </form>
