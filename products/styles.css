@@ -1,0 +1,13 @@
+th,
+td {
+   border: black 1px solid;
+   text-align: center;
+}
+table {
+   border-collapse: collapse;
+}
+th,
+.even {
+   color: white;
+   background-color: gray;
+}
