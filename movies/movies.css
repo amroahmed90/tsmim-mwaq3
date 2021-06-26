@@ -11,7 +11,7 @@ h1 {
 img {
    height: 250px;
    width: 150px;
-   border: 5px darkblue solid;
+   border: 3px darkblue solid;
    display: block;
    margin-top: 20px;
    margin-left: auto;
@@ -26,4 +26,8 @@ p {
 a {
    display: block;
    text-align: center;
+}
+
+.odd {
+   background-color: lightblue;
 }
